@@ -1,5 +1,8 @@
 # PrivateAccessor
 
+![](https://github.com/00nico00/PrivateAccess/actions/workflows/cmake-multi-platform.yml/badge.svg)
+
+
 ## 前言
 这是一个非侵入式访问 c++ 私有成员变量的一个实现
 
@@ -56,9 +59,6 @@ int main()
 }
 // 同样的，无法声明两个形参一样的 accessor
 ```
-
-## 什么编译器可以使用？
-msvc gcc clang 均可
 
 ## 更新日志
 + 2024-10-18：初版，支持访问私有成员变量
